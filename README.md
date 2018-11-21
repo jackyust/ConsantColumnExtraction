@@ -3,8 +3,11 @@ Find Columns which have all the constant values
 Generate test data:
 
 clear; 
+
 n = 10; 
+
 c1 = repmat(3,[n,1]); % n times of value 3 
+
 c2 = rand(n,1); % n values 
 c3 = repmat(NaN, [n,1]); 
 c4 = c3; 
