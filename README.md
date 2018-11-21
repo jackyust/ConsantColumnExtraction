@@ -17,7 +17,7 @@ c4(4) = 2;
 
 c5 = repmat(missing,[n,1]);
 
-c6 = cellstr(repmat('test',10,1));
+c6 = cellstr(repmat('test',n,1));
 
 c7 = c6; 
 c7{7} = 'hello'; 
